@@ -1,0 +1,53 @@
+#!/usr/bin/env ruby
+
+require 'rest-client'
+
+
+FLOW_LAYOUT_URL = 'https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/resources/download/ePUBExample/zip'
+FIXED_LAYOUT_URL = 'https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/resources/download/ePUBFixedLayoutExample/zip'
+
+
+$cookies = {}
+
+def login(login, password)
+  RestClient.post('https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/7.0.1.13.3.15.2.1.1.3.1.1', "theAccountName=#{login}&theAccountPW=#{password}") do |response, request, res, &block|
+    if response.code == 302
+      $cookies = response.cookies
+      yield response.cookies
+      $cookies = {}
+    else
+      puts 'Incorrect login or password'
+      exit(1)
+    end
+  end
+end
+
+def download_epub(url, result_dir)
+  puts "Start downloading #{url}"
+  file_response = RestClient.get(url, { cookies: $cookies })
+
+  file = Tempfile.create('aaa.epub')
+
+  puts "Writing result to #{file.path}"
+  file.write(file_response.body)
+  file.close
+
+  result_dir = File.expand_path(result_dir)
+  FileUtils.makedirs(result_dir)
+
+  puts "Unziping to #{result_dir}"
+  system("unzip '#{file.path}' -d '#{result_dir}'")
+
+  puts 'Removing tempfile'
+  File.unlink(file)
+end
+
+
+
+login('<fill-apple-id>', '<fill-password>') do
+  FileUtils.rmtree('epubs/flow')
+  FileUtils.rmtree('epubs/fixed')
+
+  download_epub(FLOW_LAYOUT_URL, 'epubs/flow')
+  download_epub(FIXED_LAYOUT_URL, 'epubs/fixed')
+end
