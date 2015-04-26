@@ -1,0 +1,15 @@
+p {
+  top: 130px;
+  left: 130px;
+}
+
+#word22 {
+  font-weight: bold;
+  -webkit-transition: color 500ms;
+  -webkit-animation: glow 1s linear alternate infinite;
+  cursor:pointer;
+}
+
+.ibooks-media-playing #word22{
+  color: #dc4c37;
+}

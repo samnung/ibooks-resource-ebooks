@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0" epub:prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0">
+  <head>
+	<title>Fixed Layout Example</title>
+    <meta name="viewport" content="width=575, height=432"/>
+    <meta charset="UTF-8"/>
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
+    <link href="css/page03.css" type="text/css" rel="stylesheet"/>
+    <script src="js/ibooks.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <audio epub:type="ibooks:soundtrack" src="audio/sonata14.mp4"/>
+    <div class="page page003">
+        <img class="background" src="images/page3/background.jpg" alt="red poppy flowers in front of a blue sky"/>
+        <p>
+          <span id="word21">Rough</span>
+          <!-- touch activated audio -->
+            <!-- 
+              By default, audio will pause itself on touch, then resume playing when touched again.
+              To reset the audio track, include the HTML attribute "ibooks-audio-reset-on-play" 
+              and set the value to ="true". Additionally, you can control whether read aloud pauses when
+              the media element plays by setting the "data-ibooks-pause-readaloud" HTML attribute boolean.
+            -->
+            <span id="word22" class="ibooks-media-audio" data-ibooks-audio-reset-on-play="true" data-ibooks-audio-src="audio/wind.mp4" data-ibooks-pause-readaloud="false">winds</span> 
+          <!-- /touch activated audio -->
+        
+          <span id="word23">do</span> <span id="word24">shake</span> <span id="word25">the</span> <span id="word26">darling</span> <span id="word27">buds</span> <span id="word28">of</span> <span id="word29">May,<br/></span>
+        <span id="word30">And</span> <span id="word31">summer's</span> <span id="word32">lease</span> <span id="word33">hath</span> <span id="word34">all</span> <span id="word35">too</span> <span id="word36">short</span> <span id="word37">a</span> <span id="word38">date:</span>
+      </p>
+    </div>
+  </body>
+  
+</html>

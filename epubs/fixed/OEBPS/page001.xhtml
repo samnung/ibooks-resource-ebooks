@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0" epub:prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0">
+  <head>
+	<title>Fixed Layout Example</title>
+    <meta name="viewport" content="width=575, height=432"/>
+	<meta charset="UTF-8"/>   
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
+    <link href="css/page01.css" type="text/css" rel="stylesheet"/>
+    <script src="js/ibooks.js" type="text/javascript"></script>  
+  </head>
+
+  <body>
+    <audio epub:type="ibooks:soundtrack" src="audio/sonata14.mp4"/>
+    <div class="page001 page">
+      <!-- read aloud -->
+      <p id="readAloud" class="read-aloud auto" ibooks:readaloud="startstop" ibooks:readaloud-turn-style="automatic">Read to Me <span class="arrow">&#x25b8;</span></p>
+	  <p class="read-aloud manual" ibooks:readaloud="startstop" ibooks:readaloud-turn-style="manual">Read &amp; Play <span class="arrow">&#x25b8;</span></p>
+      <!-- /read aloud -->
+      
+      <!-- animated text -->
+      <p class="sonnet" id="word1">Sonnet</p>
+      <p class="number" id="word2">18</p>
+      <p class="author"><span id="word3">— </span><span id="word4">William</span> <span id="word5">Shakespeare</span></p>
+      <!-- /animated text -->
+      
+      <img src="images/page1/flowers.jpg" alt="red poppy flowers"/>
+    </div>
+  </body>
+
+</html>

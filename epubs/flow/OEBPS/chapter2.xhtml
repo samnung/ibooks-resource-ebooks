@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+	<head>     
+		<title>Flowing Example</title>
+	    <meta charset="utf-8"/>      
+		<link rel="stylesheet" type="text/css" href="css/flowing.css" />  
+	</head>
+	<body>
+    	<div class="chapter">
+	      <h1><span id="p05" epub:type="pagebreak"/>Media</h1>
+
+			<p>It is easy to enhance a book with media like images, audio, video, and PDFs. This chapter includes the supported media formats and demonstrates how to include them in a book. For full details on encoding media, please refer to the <a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/8.0.15.25.0.0.1.3">iBooks Store Asset Guide.</a></p>
+
+			<h3>Images</h3>
+			<p>iBooks supports JPG, PNG, and GIF images. iBooks will scale large images so that they fit on a page, without being clipped at a page break. All images must be under 3.2 million pixels (the height multiplied by the width must be under 3.2 million.)</p>
+
+			<span id="p06" epub:type="pagebreak"/>
+			<img src="images/bears.jpg" id="image" alt="three bears peer at goldie locks as she lies asleep in bed"/>
+				
+			<p><span class="header">Images.</span> This image is sized to 50% of the viewport height. Sizing images using relative units like percentage or viewport units will ensure that the layout is flexible for different page sizes on different devices.</p>
+
+			<h3 id="audio">Audio</h3>
+				<p>Audio can be embedded using the HTML audio element. Like with images, the width of the audio element should be defined in relative units.</p>	
+
+				<audio src="audio/audio.mp4" controls="controls"/>
+
+			<h3 id="video">Video</h3>
+				<p>Video can be embedded using the HTML video element. The dimensions of the video below are defined in pixels to prevent letterboxing.</p>
+				<video src="video/video.m4v" poster="images/poster.jpg" controls="controls"/>
+				<p class="pagebreak"> </p>
+			<h3 class="title"><span id="p07" epub:type="pagebreak"/>Embedded PDF</h3>
+			<p>Embedded PDFs use a place holder image wrapped with a standard anchor element to link to the PDF file. When the image is tapped, the PDF opens in a separate view where the reader can pan and zoom in.</p>
+
+			<div class="center"><a href="pdf/frequency.pdf"> <img id="pdf" src="images/frequency.jpg" alt="frequency chart"/></a></div>
+
+			<h3>Non-linear Documents</h3>
+			<p>A non-linear document is content that is supplemental to the book and is outside of the linear reading flow of the book. When a reader selects a link that leads to a non-linear document, the document opens in a separate window that overlays the book. Because the window is outside the flow of the book, it maintains its layout and formatting and can be panned and zoomed in on.</p>
+			<p>The following image is an example of a non-linear document. The image links to an HTML version of the chart.</p>
+
+			<div class="image"><span id="p08" epub:type="pagebreak"/>
+				<a href="chart.xhtml"><img id="non-linear" src="images/chart.png" alt="image links to chart of data"/></a>
+			</div>
+				
+			<h3>Large Table</h3>
+			<p>iBooks will resize large tables to fit the width of the page. The reader can double tap the table to open it into a view where the reader can zoom in on the table's cells.</p>
+			<table id="table">
+				<tr>
+					<th></th><th>Column 1</th><th>Column 2</th><th>Column 3</th><th>Column 4</th><th>Column 5</th><th>Column 6</th><th>Column 7</th>
+				</tr>
+				<tr>
+					<td>Row 1</td><td>1.23</td><td>2.34</td><td>4.56</td><td>1.23</td><td>2.34</td><td>4.56</td><td>4.56</td>
+				</tr>                                                                                           
+				<tr>                                                                                            
+					<td>Row 2</td><td>5.67</td><td>6.78</td><td>7.89</td><td>5.67</td><td>6.78</td><td>7.89</td><td>7.89</td>
+				</tr>                                                                                           
+				<tr>                                                                                            
+					<td>Row 3</td><td>8.90</td><td>9.01</td><td>0.12</td><td>8.90</td><td>9.01</td><td>0.12</td><td>0.12</td>
+				</tr>                                                                                           
+				<tr>                                                                                            
+					<td>Row 4</td><td>1.23</td><td>2.34</td><td>4.56</td><td>1.23</td><td>2.34</td><td>4.56</td><td>4.56</td>
+				</tr>                                                                                           
+				<tr>                                                                                            
+					<td>Row 5</td><td>5.67</td><td>6.78</td><td>7.89</td><td>5.67</td><td>6.78</td><td>7.89</td><td>7.89</td>
+				</tr>                                                                                           
+				<tr>                                                                                            
+					<td>Row 6</td><td>8.90</td><td>9.01</td><td>0.12</td><td>8.90</td><td>9.01</td><td>0.12</td><td>0.12</td>
+				</tr>
+				<tr>
+					<td>Row 7</td><td>1.23</td><td>2.34</td><td>4.56</td><td>1.23</td><td>2.34</td><td>4.56</td><td>4.56</td>
+				</tr>
+			</table>
+
+		</div>
+	</body>
+</html>

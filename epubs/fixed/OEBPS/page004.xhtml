@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0" epub:prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0">
+  <head>
+	<title>Fixed Layout Example</title>
+    <meta name="viewport" content="width=575, height=432"/>
+	<meta charset="UTF-8"/>   
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
+    <link href="css/page04.css" type="text/css" rel="stylesheet"/>
+    <script src="js/ibooks.js" type="text/javascript"></script>  
+  </head>
+  
+  <body>
+    <audio epub:type="ibooks:soundtrack" src="audio/sonata14.mp4"/>
+    <div class="page page004">
+      <img class="background" src="images/page4/background.jpg" alt="green hills and a blue sky with a shining sun"/>
+
+      <!-- 
+        Because the draggable element isn't animated, 
+        we don't need to wrap it in another element.
+      -->
+      
+      <!-- draggable element-->
+      <div id="draggableElement" class="sun ibooks-draggable">
+        <div class="disks">
+          <div class="glow"></div>
+          <div class="glow"></div>
+          <div class="glow"></div>
+        </div>
+        <div class="rays"></div>
+        <div class="face"></div>
+        <div class="closedEyes"></div>
+      </div>
+      <!-- /draggable element-->
+
+      <!-- stampable element -->
+      <div id="stampableElement" class="hills ibooks-stampable">
+        <!--svg defines irregularly-shaped hit area for replicating script-->
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="1224px" height="792px" viewBox="0 0 1224 792" enable-background="new 0 0 1224 792" xml:space="preserve">
+        <path fill="#82983E" d="M612.806,387.128c-8.555,0-17.023,0.229-25.394,0.656c-50.48-31.565-116.654-60.656-189.107-60.656
+        c-8.653,0-16.846,0.42-24.805,1.205v136.949l14.525,0.023l296.721,0.478l215.824,0.347
+        C900.57,466.128,771.732,387.128,612.806,387.128z"/>
+        </svg>
+        <img src="images/page4/flower.png" alt="flower" class="singleFlower"/>
+      </div>
+      <!-- /stampable element -->
+      
+      <p><span id="word39">Sometime</span> <span id="word40">too</span> <span id="word41">hot</span> <span id="word42">the</span> <span id="word43">eye</span> <span id="word44">of</span> <span id="word45">heaven</span> <span id="word46">shines,<br/></span><span id="word47">And</span> <span id="word48">often</span> <span id="word49">is</span> <span id="word50">his</span> <span id="word51">gold</span> <span id="word52">complexion</span> <span id="word53">dimm'd;</span></p>
+    </div>
+  </body>
+
+</html>

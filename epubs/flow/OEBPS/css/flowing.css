@@ -1,0 +1,283 @@
+@font-face {
+	font-family: "Angelina";
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/angelina.ttf);
+}
+/* If you define fonts in the CSS, you must also set the "specified-fonts" layout metadta in metadata element of the package document (.ofp file). Set this option for both system fonts and embedded fonts. */
+
+body {
+	font-family: "HoeflerText";
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 {
+	color: #990000;	
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	text-align: center;
+}
+
+p { 
+	text-align: left;
+	font-size: 1em;
+}
+
+a {
+	color: #990000;
+	text-decoration: none;
+}
+
+audio {
+	margin: 1.5em 0;
+	width: 70vw;
+}
+
+video {
+	margin: 1.5em 0 1.5em 0em;
+	width: 640px;
+	height: 360px;
+}
+
+aside {
+	display: inline;
+}
+
+.pagebreak {
+	page-break-after: always;
+}
+
+
+/* cover page */
+.coverpage {
+	background-color: #999;
+}
+
+.coverpage h1 {
+	background-color: #999;
+	color: #fff;
+	padding: 40% 0 0 0;
+}
+
+
+/* title page */
+.titlepage {
+	text-align: center;
+	margin: 10% auto auto auto;
+	width: 80%;	
+}
+
+.titlepage:after {
+	content: "\2605";
+	color: #990000;
+	font-size: 1em;
+	padding: 1em 0 0 0;
+}
+
+.subtitle  {	
+	font-size: 1.7em;
+	line-height: 1em;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: normal;
+	margin: .5em 0 1.3em 0;
+	text-align: center;	
+}
+
+.author {	
+	font-size: 1.3em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	margin: 1.6em 0 2em 0;
+	text-align: center;	
+}
+
+
+/* main content */
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+ .chapter, .endnotes, .bibliography{
+	text-align: center;
+}
+
+.chapter:before, .endnotes:before, .bibliography:before {
+	content: "\2605";
+	color: #990000;
+	font-size: 2em;
+}
+
+.chapter h2 {
+	color: #3f3f3f;
+	font-size: 1.3em;
+	font-weight: normal;
+	margin: 1em 0 .4em 0;
+}
+
+.chapter h3 {
+	color: #3f3f3f;
+	font-size: 1.1em;
+	margin: 1em 0 0 0;
+	padding: 0em;
+	font-weight: bold;
+	text-align: left;
+}
+.chapter h4 {
+	font-size: 1em;
+	margin: 1em 0 0 0;
+	padding: 0em;
+}
+
+.bibliography > p:first-of-type, .endnotes > p:first-of-type{
+	margin: 9em 0 0 0;
+}
+
+.chapter > p:first-of-type {
+	text-indent: 0em;
+	margin: 7em 0 0 0;
+}
+
+.chapter > p:first-of-type:first-line {
+	font-weight: bold;
+}
+
+.chapter > p:first-of-type:first-letter {
+	font-size: 6em;
+	color: #990000;
+	float: left;
+	line-height: .8;
+	margin: 0 .1em 0 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.chapter p {
+	text-indent: 1em;
+	margin: 0;
+}
+
+p.quote {
+	font-style: italic;
+	color: #990000;
+	font-size: 1.3em;
+	margin: 1em auto 1em auto;
+	width: 90%;
+	text-indent: 0;
+	text-align: center;
+}
+
+p.example {
+	background-color: #f5e5e5;
+	border: thin dotted black;
+	width: 90%;
+	padding: .5em;
+	margin: 1em auto auto auto;
+	text-align: center;
+	text-indent: 0;
+	page-break-inside: avoid;
+}
+
+p.system-font {
+	font-family: courier;
+}
+
+p.embedded-font {
+	font-family: "Angelina";
+}
+
+.upsell {
+	width: 10em;
+	margin: auto auto 1.5em auto;
+}
+
+.upsell p {
+	text-align: center;
+	text-indent: 0;
+}
+	
+.sidebar {
+	text-align: justify;
+	background-color: #f5e5e5;
+	border: thin solid black;
+	width: 35%;
+	padding: .5em .7em .5em .7em;
+	margin: .4em !important;
+	float: right;
+}
+
+ol {
+	margin: .2em 0 1em 0;
+	text-align: left;
+}
+
+ul {
+	margin: .2em 0 1em 0;
+	text-align: left;	
+}
+
+.header {
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+/* images */
+img {
+	padding: 0;
+	margin: 0 auto;
+	height: 50vh;
+}
+
+div.image > p {
+	margin: 1em auto 1.5em auto;
+	width: 90%;
+	text-indent: 0;
+	text-align: justify;
+	font-style: italic;
+}
+
+
+/* table */
+/* tables should only be used for displaying data. Do not use tables to layout images */
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: medium solid #fff;
+	background: -webkit-gradient(
+	    linear,
+		0% 0%, 0% 100%,
+	    color-stop(0, rgb(186,186,186)),
+	    color-stop(0.6, rgb(225,225,225))
+	);
+}
+
+th {
+	font-weight: normal;
+	padding: .5em;
+	border: medium solid #fff;
+	font-style: italic;
+}
+
+td {
+	padding: .5em;
+	border: medium solid #fff;
+	font-style: italic;
+}
+
+	
+/* bibliography */
+.bibliography p	{
+	padding-left: 1em;
+	margin-bottom: 0;	
+	text-indent: -1em;
+	text-align: left;
+}
+

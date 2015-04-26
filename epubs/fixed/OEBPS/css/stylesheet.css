@@ -1,0 +1,88 @@
+body {
+  width: 575px;
+  height: 432px;
+  margin: 0;
+  -webkit-user-select: text; /*user can only select text, not images*/
+}
+
+audio { 
+  /* move soundtrack off page to eliminate potential interference with page layout */
+  position: absolute;
+  top: -30px;
+}
+
+p { 
+  font-family: "Futura";
+  position: absolute;
+  color: #29628B;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  position: absolute;
+  margin: 0;
+}
+
+img.background {
+  width: 575px;
+  height: 432px;
+  margin: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.page {
+  width: 575px;
+  height: 432px;
+  overflow: hidden;
+}
+
+.-epub-media-overlay-active {
+  color: #dc4c37;
+}
+
+#word1.-epub-media-overlay-active, 
+#word2.-epub-media-overlay-active {
+  color: #29628B;
+}
+
+
+/* 
+  When using global styles, be aware that the keyframe names
+  are global.
+*/
+
+@-webkit-keyframes blink {
+  0% { opacity: 0; }
+  9% { opacity: 0; }
+  10% { opacity: 1; }
+  18% { opacity: 1; }
+  19% { opacity: 0; }
+  40% { opacity: 0; }
+  41% { opacity: 1; }
+  50% { opacity: 1; }
+  51% { opacity: 0; }
+  70% { opacity: 0; }
+  71% { opacity: 1; }
+  75% { opacity: 1; }
+  76% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes pulse {
+    from  { opacity: 0; }
+    to    { opacity: 1; }
+}
+
+@-webkit-keyframes glow {
+  0%    { text-shadow: 0px 0px 15px #69828d; }
+  100%  { text-shadow: 0px 0px 3px; }
+}
+
+.visible{ 
+  opacity: 1 !important; 
+  color: #11f700 !important;
+}

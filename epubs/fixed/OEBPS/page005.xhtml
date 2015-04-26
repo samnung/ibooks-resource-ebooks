@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0" epub:prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0">
+  <head>
+	<title>Fixed Layout Example</title>
+    <meta name="viewport" content="width=575, height=432"/>
+	<meta charset="UTF-8"/>   
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
+    <link href="css/page05.css" type="text/css" rel="stylesheet"/>
+    <script src="js/ibooks.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <audio epub:type="ibooks:soundtrack" src="audio/sonata14.mp4"/>
+    <div class="page page005">
+      <img class="background" src="images/page5/background.jpg" alt="green hills and a blue sky"/>
+
+      <!-- toggleable elements-->   
+      <!-- 
+          For performance reasons, use image sprites instead of
+          loading two separate assets.
+      -->
+      <div id="toggleableElement" class="star ibooks-toggleable"></div>
+      <div class="star ibooks-toggleable"></div>
+      <div class="star ibooks-toggleable"></div>
+      <div class="star ibooks-toggleable"></div>
+      <div class="star ibooks-toggleable"></div>
+      <div class="star ibooks-toggleable"></div>
+      <div class="star ibooks-toggleable"></div>
+      <div class="star ibooks-toggleable"></div>
+      <div class="star ibooks-toggleable"></div>
+      <!-- /toggleable-->
+
+      <!-- draggable element -->
+      <div class="ibooks-draggable moon">
+        <!-- 
+          The draggable element cannot have an animation.
+          To add an animation, we must wrap it in a child element.
+        -->
+        <div class="wrapper">
+          <div class="closedEyes"></div>
+        </div>
+      </div>
+      <!--/draggable element-->
+
+      <p>
+        <span id="word54">And</span> <span id="word55">every</span> <span id="word56">fair</span> <span id="word57">from</span> <span id="word58">fair</span> <span id="word59">sometime</span> <span id="word60">declines,<br/></span>
+      <span id="word61">By</span> <span id="word62">chance</span> <span id="word63">or</span> <span id="word64">nature's</span> <span id="word65">changing</span> <span id="word66">course</span> <span id="word67">untrimm'd;<br/></span>
+      <span id="word68">But</span> <span id="word69">thy</span> <span id="word70">eternal</span> <span id="word71">summer</span> <span id="word72">shall</span> <span id="word73">not</span> <span id="word74">fade<br/></span>
+      <span id="word75">Nor</span> <span id="word76">lose</span> <span id="word77">possession</span> <span id="word78">of</span> <span id="word79">that</span> <span id="word80">fair</span> <span id="word81">thou</span> <span id="word82">owest;<br/></span>
+      <span id="word83">Nor</span> <span id="word84">shall</span> <span id="word85">Death</span> <span id="word86">brag</span> <span id="word87">thou</span> <span id="word88">wander'st</span> <span id="word89">in</span> <span id="word90">his</span> <span id="word91">shade,</span>
+      </p>
+    </div>
+  </body>
+  
+</html>

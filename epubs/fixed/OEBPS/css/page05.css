@@ -1,0 +1,71 @@
+p {
+  color: #C8E0DC;
+  top: 177px;
+  left: 25px;
+  z-index: 110;
+}
+
+.moon {
+  position: absolute;
+  width: 138px;
+  height: 136px;
+  top: 50px;
+  left: 400px;
+  z-index: 100;
+}
+
+.moon .wrapper{
+  width: 138px;
+  height: 136px;    
+  background: url('../images/page5/face.png');
+  -webkit-background-size: cover;
+  -webkit-animation: bobMoon 3s linear alternate infinite;
+}
+
+@-webkit-keyframes bobMoon {
+  0%  { -webkit-transform: translate(0px, 0px);}
+  100% {  -webkit-transform: translate(0px, 6px);}
+}
+
+.moon .closedEyes {
+  background-image: url('../images/page5/closedeyes.png');
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  top: 50px;
+  left: 13px;
+  opacity: 0;
+  -webkit-background-size: cover;
+  -webkit-animation: blink 10s ease-in-out infinite;
+}
+
+.star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url('../images/page5/star-sprite.png');
+  background-position: 0px -22px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -webkit-animation: spotPulse 1s ease-in-out alternate infinite;
+}
+
+.star.active {
+  background-position: 0px 0px;
+}
+
+@-webkit-keyframes spotPulse {
+  from { -webkit-transform: scale(1)}
+  to { -webkit-transform: scale(1.15)}
+}
+
+.star:nth-of-type(1)  {left: 28px;  top: 37px;  -webkit-animation-delay: 0ms;}
+.star:nth-of-type(2)  {left: 319px; top: 25px;  -webkit-animation-delay: 100ms;}
+.star:nth-of-type(3)  {left: 72px;  top: 72px;  -webkit-animation-delay: 200ms;}
+.star:nth-of-type(4)  {left: 206px; top: 60px;  -webkit-animation-delay: 300ms;}
+.star:nth-of-type(5)  {left: 302px; top: 42px;  -webkit-animation-delay: 400ms;}
+.star:nth-of-type(6)  {left: 37px;  top: 121px; -webkit-animation-delay: 500ms;}
+.star:nth-of-type(7)  {left: 265px; top: 130px; -webkit-animation-delay: 600ms;}
+.star:nth-of-type(8)  {left: 510px; top: 205px; -webkit-animation-delay: 700ms;}
+.star:nth-of-type(9)  {left: 490px; top: 225px; -webkit-animation-delay: 800ms;}
+.star:nth-of-type(10) {left: 25px;  top: 25px;  -webkit-animation-delay: 1000ms;}

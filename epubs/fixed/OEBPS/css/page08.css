@@ -1,0 +1,26 @@
+.page {
+  background-color: #c5dfdb;
+  width: 575px; 
+  height: 432px;
+}
+
+.back-cover {
+  width: 575px;
+  top: 343px;
+}
+
+video.demo {
+  height: 180px;
+  width: 320px;
+  position: absolute;
+  top: 80px;
+  left: 127px;
+  border: 5px solid #2c4f22;
+  -webkit-border-radius: 6px;
+}
+
+#footnote{
+  position: absolute;
+  top: 275px;
+  left: 315px;
+}

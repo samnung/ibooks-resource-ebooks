@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+	<head>     
+		<title>Flowing Example</title>
+	    <meta charset="utf-8"/>      
+		<link rel="stylesheet" type="text/css" href="css/flowing.css" />  
+	</head>
+
+	<body>
+		<div class="endnotes">
+		<!-- Note: In this example, endnotes.xhtml is a non-linear document which allows the popup-style endnotes to be backwards compatible. In iBooks 2.0 and later, selecting the link will present the footnote as a popup, instead of leading the reader to endnotes.xhtml. Furthermore, the popup text is only visible in the popup; it is not visible in the endnotes.xhtml chapter. Conversely, in pre-iBooks 2.0 builds, selecting the link will take the reader to endnotes.xhtml and the text will be visible in the chapter, but no popup will occur. The reader should not discover an empty endnotes.xhtml chapter in iBooks 2.0+, so we restrict the reader's access to endnotes.xhtml by making it non-linear. -->
+			
+			<h1><span id="p09" epub:type="pagebreak"/>Endnotes</h1>
+			<ol>
+				<li>
+					<aside epub:type="footnote" id="one">Nulla elit est, scelerisque id accumsan ut, iaculis et neque.</aside> <a href="chapter1.xhtml#one">&#8617;</a>
+				</li>
+				<li><aside epub:type="footnote" id="two">Fusce tellus lacus, vestibulum a imperdiet non, aliquet eget purus.</aside> <a href="chapter1.xhtml#two">&#8617;</a>
+				</li>
+			</ol>		
+		</div>
+	</body>
+</html>

@@ -1,0 +1,143 @@
+body {
+	font-family: "HoeflerText";
+	text-align: center;
+	/* Note that font size is not defined for <body> or <p>. */
+}
+h1 {
+	color: #990000;	
+	font-size: 3.2em;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	margin: .5em 0 0 0;
+}
+.chart:before {
+	content: "\2605";
+	color: #990000;
+	font-size: 2em;
+	text-align: center;
+}
+.chart {
+	margin: 20px 0 0 0;
+}
+h2 {
+	color: gray;
+	margin: 0;
+}
+
+.units {
+	-webkit-transform: rotate(-90deg);
+	position: absolute;
+	top: 380px;
+	left: 10px;
+}
+.years {
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+	margin-left: 100px;
+}
+td {
+	height: 56.6px;
+	width: 70px;
+	color: gray;
+	vertical-align: bottom;
+}
+tr {
+	border-top: thin dashed gray;
+}
+tr:first-of-type {
+	border: none;
+}
+th {
+}
+.values {
+	display: none;
+}
+.bar-container {
+	left: 179px;
+	top: 179px;
+	position: absolute;
+}
+.bar-2002 {
+	width: 60px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 10px;
+	top: 403px;
+}
+.bar-2003 {
+	width: 60px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 13px;
+	top: 400px;
+}
+.bar-2004 {
+	width: 60px;
+	bottom: -413px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 16px;
+	top: 397px;
+}
+.bar-2005 {
+	width: 60px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 18px;
+	top: 395px;
+}
+.bar-2006 {
+	width: 60px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 25px;
+	top: 388px;
+}
+.bar-2007 {
+	width: 60px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 33px;
+	top: 380px;
+}
+.bar-2008 {
+	width: 60px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 54px;
+	top: 359px;
+}
+.bar-2009 {
+	width: 60px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 165px;
+	top: 248px;
+}
+.bar-2010 {
+	width: 60px;
+	margin: 0 6px 0 6px;
+	position: relative;
+	float: left;
+	background-color: #f5e5e5;
+	height: 355px;
+	top: 58px;
+}

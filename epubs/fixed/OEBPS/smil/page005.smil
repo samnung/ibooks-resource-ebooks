@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body>
+    <par id="id54">
+      <text src="../page005.xhtml#word54"/>
+      <audio clipBegin="0:00:19.875" clipEnd="0:00:20.343" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id55">
+      <text src="../page005.xhtml#word55"/>
+      <audio clipBegin="0:00:20.343" clipEnd="0:00:20.508" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id56">
+      <text src="../page005.xhtml#word56"/>
+      <audio clipBegin="0:00:20.508" clipEnd="0:00:20.985" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id57">
+      <text src="../page005.xhtml#word57"/>
+      <audio clipBegin="0:00:20.985" clipEnd="0:00:21.197" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id58">
+      <text src="../page005.xhtml#word58"/>
+      <audio clipBegin="0:00:21.197" clipEnd="0:00:21.606" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id59">
+      <text src="../page005.xhtml#word59"/>
+      <audio clipBegin="0:00:21.606" clipEnd="0:00:22.063" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id60">
+      <text src="../page005.xhtml#word60"/>
+      <audio clipBegin="0:00:22.063" clipEnd="0:00:22.834" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id61">
+      <text src="../page005.xhtml#word61"/>
+      <audio clipBegin="0:00:22.834" clipEnd="0:00:23.375" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id62">
+      <text src="../page005.xhtml#word62"/>
+      <audio clipBegin="0:00:23.375" clipEnd="0:00:23.978" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id63">
+      <text src="../page005.xhtml#word63"/>
+      <audio clipBegin="0:00:23.978" clipEnd="0:00:24.084" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id64">
+      <text src="../page005.xhtml#word64"/>
+      <audio clipBegin="0:00:24.084" clipEnd="0:00:24.457" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id65">
+      <text src="../page005.xhtml#word65"/>
+      <audio clipBegin="0:00:24.457" clipEnd="0:00:24.905" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id66">
+      <text src="../page005.xhtml#word66"/>
+      <audio clipBegin="0:00:24.905" clipEnd="0:00:25.234" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id67">
+      <text src="../page005.xhtml#word67"/>
+      <audio clipBegin="0:00:25.234" clipEnd="0:00:25.937" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id68">
+      <text src="../page005.xhtml#word68"/>
+      <audio clipBegin="0:00:25.937" clipEnd="0:00:26.658" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id69">
+      <text src="../page005.xhtml#word69"/>
+      <audio clipBegin="0:00:26.658" clipEnd="0:00:27.164" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id70">
+      <text src="../page005.xhtml#word70"/>
+      <audio clipBegin="0:00:27.164" clipEnd="0:00:27.437" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id71">
+      <text src="../page005.xhtml#word71"/>
+      <audio clipBegin="0:00:27.437" clipEnd="0:00:27.828" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id72">
+      <text src="../page005.xhtml#word72"/>
+      <audio clipBegin="0:00:27.828" clipEnd="0:00:28.045" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id73">
+      <text src="../page005.xhtml#word73"/>
+      <audio clipBegin="0:00:28.045" clipEnd="0:00:28.261" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id74">
+      <text src="../page005.xhtml#word74"/>
+      <audio clipBegin="0:00:28.261" clipEnd="0:00:28.900" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id75">
+      <text src="../page005.xhtml#word75"/>
+      <audio clipBegin="0:00:28.900" clipEnd="0:00:29.203" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id76">
+      <text src="../page005.xhtml#word76"/>
+      <audio clipBegin="0:00:29.203" clipEnd="0:00:29.583" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id77">
+      <text src="../page005.xhtml#word77"/>
+      <audio clipBegin="0:00:29.583" clipEnd="0:00:30.031" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id78">
+      <text src="../page005.xhtml#word78"/>
+      <audio clipBegin="0:00:30.031" clipEnd="0:00:30.202" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id79">
+      <text src="../page005.xhtml#word79"/>
+      <audio clipBegin="0:00:30.202" clipEnd="0:00:30.364" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id80">
+      <text src="../page005.xhtml#word80"/>
+      <audio clipBegin="0:00:30.364" clipEnd="0:00:30.682" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id81">
+      <text src="../page005.xhtml#word81"/>
+      <audio clipBegin="0:00:30.682" clipEnd="0:00:30.918" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id82">
+      <text src="../page005.xhtml#word82"/>
+      <audio clipBegin="0:00:30.918" clipEnd="0:00:31.556" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id83">
+      <text src="../page005.xhtml#word83"/>
+      <audio clipBegin="0:00:31.556" clipEnd="0:00:32.233" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id84">
+      <text src="../page005.xhtml#word84"/>
+      <audio clipBegin="0:00:32.233" clipEnd="0:00:32.496" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id85">
+      <text src="../page005.xhtml#word85"/>
+      <audio clipBegin="0:00:32.496" clipEnd="0:00:32.827" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id86">
+      <text src="../page005.xhtml#word86"/>
+      <audio clipBegin="0:00:32.827" clipEnd="0:00:33.278" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id87">
+      <text src="../page005.xhtml#word87"/>
+      <audio clipBegin="0:00:33.278" clipEnd="0:00:33.470" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id88">
+      <text src="../page005.xhtml#word88"/>
+      <audio clipBegin="0:00:33.470" clipEnd="0:00:33.803" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id89">
+      <text src="../page005.xhtml#word89"/>
+      <audio clipBegin="0:00:33.803" clipEnd="0:00:33.911" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id90">
+      <text src="../page005.xhtml#word90"/>
+      <audio clipBegin="0:00:33.911" clipEnd="0:00:34.045" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id91">
+      <text src="../page005.xhtml#word91"/>
+      <audio clipBegin="0:00:34.045" clipEnd="0:00:34.809" src="../audio/sonnet.mp4"/>
+    </par>
+  </body>
+</smil>

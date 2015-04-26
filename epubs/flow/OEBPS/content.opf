@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:title>Flowing Example 3.1</dc:title>
+		<dc:identifier id="bookid">1234567890</dc:identifier>
+		<dc:language>en</dc:language>
+		<meta property="dcterms:modified">2014-09-04T00:00:00Z</meta>
+			    
+		<dc:rights>This book is copyrighted by Apple Inc and must not be shared.</dc:rights>
+		<dc:creator>Apple Inc.</dc:creator>
+		
+		<meta property="ibooks:version">3.1</meta>
+		<meta property="ibooks:specified-fonts">true</meta>
+	</metadata>
+
+  	<manifest>
+		<!--supplementary -->
+		<item id="css-flo" href="css/flowing.css" media-type="text/css"/>
+		<item id="css-cht" href="css/chart-style.css" media-type="text/css"/>
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+
+		<!-- fonts -->
+		<item id="font-angelina" href="fonts/angelina.ttf" media-type="application/x-font-ttf"/>
+
+		<!--content-->
+		<item id="cov" href="cover.xhtml" media-type="application/xhtml+xml"/> 	
+		<item id="tit" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
+		<item id="ch1" href="chapter1.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item id="ch2" href="chapter2.xhtml" media-type="application/xhtml+xml"/>
+		<item id="end" href="endnotes.xhtml" media-type="application/xhtml+xml"/> 
+		<item id="bib" href="bibliography.xhtml" media-type="application/xhtml+xml"/> 
+		<item id="cht" href="chart.xhtml" media-type="application/xhtml+xml"/> 
+
+		<!-- av -->
+		<item id="aud1" href="audio/audio.mp4" media-type="audio/mp4"/>
+		<item id="vid1" href="video/video.m4v" media-type="video/mp4"/>
+
+		<!--pdf-->
+		<item id="pdf" href="pdf/frequency.pdf" media-type="application/pdf"/>
+
+		<!--images-->
+		<item id="img1" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+		<item id="img2" href="images/bears.jpg" media-type="image/jpeg"/>
+		<item id="img3" href="images/chart.png" media-type="image/png"/>
+		<item id="img4" href="images/poster.jpg" media-type="image/jpeg"/>
+		<item id="img5" href="images/frequency.jpg" media-type="image/jpeg" />
+		<item id="img6" href="images/upsellCover.jpg" media-type="image/jpeg" />
+	</manifest>
+
+	<spine>
+	<itemref idref="cov"/>
+		<itemref idref="tit"/>
+		<itemref idref="ch1"/>
+		<itemref idref="ch2"/>
+		<itemref idref="end" linear="no"/>
+		<itemref idref="bib"/>
+		<itemref idref="cht" linear="no"/>
+	</spine>
+
+</package>

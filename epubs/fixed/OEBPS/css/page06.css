@@ -1,0 +1,52 @@
+.closed-eyes {
+  background-image: url('../images/page5/closedeyes.png');
+  position: absolute;
+  width: 119px;
+  height: 22px;
+  top: 128px;
+  left: 312px;
+  opacity: 0;
+  -webkit-animation: blink 10s linear infinite;
+  -webkit-background-size: cover;
+}
+
+.eye-socket {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+}
+
+.eye-socket.left{
+  left: 332px; 
+  top: 135px;
+}
+
+.eye-socket.right{
+  left: 397px; 
+  top: 135px;
+}
+
+/* Must set styles for accel */
+.eye-socket > .left-eye { 
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 15px;
+}
+
+.eye-socket > .right-eye { 
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 15px;
+}
+
+.eye-frame {
+  background-image: url('../images/page4/eyeframe.png');
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  top: 130px;
+  left: 318px;
+  -webkit-background-size: cover;
+}

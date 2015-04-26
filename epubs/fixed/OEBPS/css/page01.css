@@ -1,0 +1,89 @@
+.page {
+  background-color: #c5dfdb;
+  position: relative;
+}
+
+.read-aloud {
+  font: 300 14px "Futura";
+  text-transform: uppercase;
+  text-shadow: 0px 0px 3px #fff;
+  color: #000;
+  left: 35px;
+ 
+}
+
+.auto { 
+  top: 20px;
+  cursor: pointer;
+}
+
+.manual { 
+  top: 50px;
+  cursor:pointer;
+}
+
+.-ibooks-media-overlay-enabled {
+  color: #dc4c37;
+}
+
+img {
+  width: 260px;
+  height: auto;
+  top: 240px;
+  left: 30px;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: opacity 500ms 250ms;
+}
+
+.build-in img{
+  opacity: 1;
+}
+
+.sonnet,
+.number,
+.author{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: -webkit-transform 500ms;
+}
+
+.build-in .sonnet,
+.build-in .number,
+.build-in .author{
+  -webkit-transform: translate3d(0px, 0px, 0px); /* 3D transforms create smoother transitions, but use sparingly */
+}
+
+.sonnet {
+  font-family: "Futura-CondensedExtraBold";
+  font-size: 80px;
+  color: #dc4b36;
+  text-transform: uppercase;
+  top: 335px;
+  left: 30px;
+  -webkit-transform: translate3d(-500px, 0px, 0px);
+  -webkit-transition-delay: 250ms;
+}
+
+.number {
+  font-family: "Futura";
+  letter-spacing: -100px;
+  font-size: 370px;
+  color: #dc4b36;
+  line-height: 50px;
+  top: 210px;
+  left: 230px;
+  -webkit-transform: translate3d(500px, 0px, 0px);
+  -webkit-transition-delay: 500ms;
+}
+
+.author {
+  font-family: "Futura";
+  text-transform: uppercase;
+  font-size: 21px;
+  top: 390px;
+  left: 303px;
+  -webkit-transform: translate3d(0px, 265px, 0px);
+  -webkit-transition-delay: 750ms;
+}

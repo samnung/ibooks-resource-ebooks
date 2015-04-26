@@ -1,0 +1,137 @@
+p {
+  top: 130px;
+  left: 230px;
+}
+
+.closedEyes {
+  background-image: url('../images/page5/closedeyes.png');
+  position: absolute;
+  width: 148px;
+  height: 26px;
+  -webkit-background-size: cover;
+  top: 120px;
+  left: 42px;
+  opacity: 0;
+  -webkit-animation: blink 10s linear infinite;
+}
+
+.page > .flower {
+  -webkit-transform: translate3d(0px, 200px, 0px);
+  -webkit-transition: -webkit-transform 500ms;
+  position: relative;
+}
+
+.build-in .flower {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.flower.a {
+  left: 200px;
+  top: 325px;
+}
+
+.flower.b {
+  left: 270px;
+  top: 150px;
+  -webkit-transition-delay: 250ms;
+}
+
+.flower.c {
+  left: 350px;
+  top: 100px;
+  -webkit-transition-delay: 500ms;
+}
+
+.flower.d {
+  left: 430px;
+  top: 0px;
+  -webkit-transition-delay: 750ms;
+}
+
+.flower.e {
+  left: 500px;
+  top: -30px;
+  -webkit-transition-delay: 1000ms;
+}
+
+/* @group animatable flower */
+.flower{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.flower:after{
+  content: " ";
+  top: 50px;
+  left: 15px;
+  position: absolute;
+  width: 48px;
+  height: 189px;
+  background: url('../images/page2/flowers/stem.png');
+}
+
+.flower > .center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -27px;
+  margin-top: -26px;
+  width: 54px;
+  height: 53px;
+  background: url('../images/page2/flowers/center.png') no-repeat center center;
+  z-index: 10;
+}
+
+.flower > .petal{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -23px;
+  margin-top: -25px;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  background: #DC3434;
+  -webkit-transform-origin: 0% 50%;
+  -webkit-transform: translate3d(0px, 0px, 0px) scale(0.8);
+  -webkit-transition: -webkit-transform 250ms;
+  z-index: -5;
+}
+
+.flower.active > .petal{
+  background: #DC3434;
+  -webkit-transform: translate3d(25px, 0px, 0px);
+}
+
+.flower.active > .petal:nth-of-type(2){
+  background: #B8201F;
+  -webkit-transform: translate3d(25px, 0px, 0px) rotateZ(72deg);
+}
+
+.flower.active > .petal:nth-of-type(3){
+  background: #DC4B36;
+  -webkit-transform: translate3d(25px, 0px, 0px) rotateZ(144deg);
+}
+
+.flower.active > .petal:nth-of-type(4){
+  background: #BE2422;
+  -webkit-transform: translate3d(25px, 0px, 0px) rotateZ(216deg);
+}
+
+.flower.active > .petal:nth-of-type(5){
+  background: #DC4B36;
+  -webkit-transform: translate3d(25px, 0px, 0px) rotateZ(288deg);
+}
+/* @end */
+
+/* media overlay */
+@-webkit-keyframes overlayGlow {
+  0%    { text-shadow: 0px 0px 15px #dc4c37; }
+  100%  { text-shadow: 0px 0px 3px; }
+}
+
+#word17.glow {
+  -webkit-animation: overlayGlow 2s linear alternate infinite;
+}
+/* end media overlay*/

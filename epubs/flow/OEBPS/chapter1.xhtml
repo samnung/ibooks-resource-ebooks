@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+	<head>     
+		<title>Flowing Example</title>
+	    <meta charset="utf-8"/>      
+		<link rel="stylesheet" type="text/css" href="css/flowing.css"/>  
+	</head>
+	<body>
+		<div class="chapter">
+			<h1><span id="p01" epub:type="pagebreak"/>Formatting Text</h1>
+			<p>This book is an example of a flowing style of book. A flowing book has text that flows from page to page and a reader can change the size of that text to meet their reading needs. This book contains examples of content and formatting that the flowing book format supports. This example also provides guidance on how to create these features. If you want to create your own book, unzipping this EPUB will allow you to look at the files that comprise the book and will provide a better understanding how this book was created.</p>
+			
+			<p class="quote" id="font-color">&#8220;Add interest to a book by defining the style, color, size, and font for text.&#8221;</p>
+				
+			<h3 id="font-style">Font Styles</h3>
+			<p>Normal</p>
+			<p class="italic">Italic</p>
+			
+			<h3>Font Weights</h3>
+			<p>Normal</p>
+			<p class="bold">Bold</p>
+
+			<h3>System Fonts</h3>
+			<p>There are more than sixty font families in iOS that are available for your book to reference in iBooks. These fonts are called system fonts. Example of a system font:</p>
+			<p class="system-font example">The quick brown fox jumps over the lazy dog.</p>
+			
+			<h3 id="embedded-font"><span id="p02" epub:type="pagebreak"/>Embedded Fonts</h3>
+			<p>If you have your own font that you want to use and you have use rights for it, then you can embed that font in your book. Example of an embedded font: </p>
+			<p class="embedded-font example">The quick brown fox jumps over the lazy dog.</p>
+			
+			<h3 id="soft-hyphen">Soft Hyphens</h3>
+<p>Soft hyphens define the logical breaking point in a long word. They are especially useful in long headings and in hyperlinks. For example:</p>	
+<p>Super&#173;cali&#173;fragi&#173;listic&#173;expi&#173;ali&#173;docious super&#173;cali&#173;fragi&#173;listic&#173;expi&#173;ali&#173;docious super&#173;cali&#173;fragi&#173;listic&#173;expi&#173;ali&#173;docious super&#173;cali&#173;fragi&#173;listic&#173;expi&#173;ali&#173;docious super&#173;cali&#173;fragi&#173;listic&#173;expi&#173;ali&#173;docious super&#173;cali&#173;fragi&#173;listic&#173;expi&#173;ali&#173;docious super&#173;cali&#173;fragi&#173;listic&#173;expi&#173;ali&#173;docious super&#173;cali&#173;fragi&#173;listic&#173;expi&#173;ali&#173;docious </p>
+			
+			<h3 id="list">Lists</h3>
+			<p>Lists are best created using the HTML list element. Both ordered and unordered lists are supported.</p>
+			<h4>Ordered List</h4>
+			<ol>
+				<li>Fusce</li>
+				<li>Imperdiet</li>
+				<li>Habitasse</li>
+				<li>GalQuisquea</li>
+				<li>Phasellus</li>
+			</ol>
+			<h4>Un-ordered List</h4>
+			<ul>
+				<li>Fusce</li>
+				<li>Imperdiet</li>
+				<li>Habitasse</li>
+				<li>GalQuisquea</li>
+				<li>Phasellus</li>
+			</ul>
+
+			<h3 id="links"><span id="p03" epub:type="pagebreak"/>Links</h3>
+			<p>Links can take the reader to locations within the book, or can take the reader outside of the book.</p>
+			<ul>
+				<li>Link to a website like <a href="http://apple.com">Apple</a> or <a href="https://twitter.com/#!/iBookstore">Twitter</a>.</li>
+				<li>Include an email link. This link will open an email to the <a href="mailto:ebookquery@apple.com?subject=Testing the mailto link">iBooks Store</a>.</li>
+				<li>Telephone number: <a href="tel:+1-888-555-5555">1-888-555-5555</a></li>
+				<li>Link to a book in the iBooks Store: <a href="https://itunes.apple.com/us/book/steve-jobs/id431617578?mt=11">Steve Jobs</a></li>
+			</ul>
+			
+			<div class="sidebar" id="side-bar"><p>Sidebars are easily created using the CSS float property. The width of sidebars should be defined in % so that they can adjust to different screen sizes.</p> 
+			</div>
+			
+			<h3 id="popup"><span id="p04" epub:type="pagebreak"/>Pop-up Notes</h3>
+			<p>This paragraph includes superscripts<sup><a epub:type="noteref" href="endnotes.xhtml#one" id="one">1</a></sup> associated with footnotes. When the reader selects the superscript, the corresponding note<sup><a epub:type="noteref" href="endnotes.xhtml#two" id="two">2</a></sup> will appear in a pop-up.</p>
+			
+			<h3 id="pagebreak">Page Breaks</h3>
+			<p>iBooks will always create a page break at the end of an XHTML document. If a page break is needed within a document, you may use the CSS page-break property. iBooks supports page-break-before and page-break-after.</p>
+				
+			<p class="pagebreak">A page break will occur after this sentence.</p>
+			
+			<h3>Custom Text Paths</h3>
+			<p>SVG can be used to create custom text paths similar to the example below.</p>
+			<svg id="svg" width="300px" height="200px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <defs>
+					<path id="TextPath1" d="M 10,150 A 15 15 180 0 1 70 140 A15 25 180 0 0 130 130 A15 55 180 0 1 190 110" />		
+			    </defs>
+				<text font-size="14">
+			      <textPath xlink:href="#TextPath1">
+			           Jack and Jill went up the hill to fetch a pail of water. Jack fell down...
+			      </textPath>
+			    </text>
+			</svg>
+		</div>
+	</body>
+</html>

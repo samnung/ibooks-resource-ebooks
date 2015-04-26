@@ -1,0 +1,109 @@
+.hills svg {
+  position: relative;
+  left: -326px;
+  top: -34px;
+  opacity: 0;
+}
+
+.hills .stamp {
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  margin-top: -16px;
+  margin-left: -16px;
+  background: url("../images/page4/flower.png");
+  -webkit-background-size: cover;
+}
+
+.hills .singleFlower {
+  width: 33px;
+  height: 33px;
+  top: 390px;
+  left: 100px;
+  -webkit-animation: pulse 2s 1s linear both;
+}
+
+p {
+  top: 240px;
+  left: 210px;
+  z-index: 110;
+}
+
+/* Draggable elements must have a specified top, and left.*/
+.sun {
+  position: absolute;
+  width: 231px;
+  height: 231px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.sun > .disks {
+  position: absolute;
+  width: 228px;
+  height: 228px;
+  -webkit-animation: spinRays 5s linear infinite;
+  -webkit-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes spinRays {
+  from  { -webkit-transform: rotate(0deg); }
+  to    { -webkit-transform: rotate(360deg); }
+}
+
+.page004 > div.sun > div.disks > div.glow {
+  position: absolute;
+  width: 228px;
+  height: 228px;
+  top: 50%;
+  left: 50%;
+  margin-top: -114px;
+  margin-left: -114px;
+  background: rgba(255, 253, 92, 59);
+  -webkit-border-radius: 114px;
+  opacity: 0.5;
+  -webkit-transform-origin: 104px 50%;
+  -webkit-transform: translate3d(10px, 0px, 0px);
+}
+
+.page004 > div.sun > div.disks > div.glow:nth-of-type(2) {
+  background: rgba(240, 183, 47, 76);
+  -webkit-transform: translate3d(10px, 0px, 0px) rotate(120deg);
+}
+
+.page004 > div.sun > div.disks > div.glow:nth-of-type(3) {
+   background: rgba(241, 193, 82, 42);
+   -webkit-transform: translate3d(10px, 0px, 0px) rotate(240deg);
+}
+
+.page004  > div.sun > div.rays {
+  background: url('../images/page4/rays.png');
+  width: 231px;
+  height: 231px;
+  -webkit-background-size: cover;
+  -webkit-animation: spin 60s linear infinite;
+}
+
+.sun .face {
+  background: url('../images/page5/face.png');
+  position: absolute;
+  width: 138px;
+  height: 135px;
+  top: 50%;
+  left: 50%;
+  margin-top: -67px;
+  margin-left: -69px;
+  -webkit-background-size: cover;
+}
+
+.page004 .closedEyes {
+  background-image: url('../images/page5/closedeyes.png');
+  position: absolute;
+  width: 111px;
+  height: 20px;
+  top: 98px;
+  left: 59px;
+  -webkit-background-size: cover;
+  -webkit-animation: blink 7s linear infinite;  
+}

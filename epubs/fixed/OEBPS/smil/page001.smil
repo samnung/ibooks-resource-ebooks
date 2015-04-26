@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <body>
+    <par id="id1">
+      <text src="../page001.xhtml#word1"/>
+      <audio clipBegin="0:00:00" clipEnd="0:00:00.777" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id2">
+      <text src="../page001.xhtml#word2"/>
+      <audio clipBegin="0:00:00.777" clipEnd="0:00:01.259" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id3">
+      <text src="../page001.xhtml#word3"/>
+      <audio clipBegin="0:00:01.259" clipEnd="0:00:01.919" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id4">
+      <text src="../page001.xhtml#word4"/>
+      <audio clipBegin="0:00:01.919" clipEnd="0:00:02.253" src="../audio/sonnet.mp4"/>
+    </par>
+    <par id="id5">
+      <text src="../page001.xhtml#word5"/>
+      <audio clipBegin="0:00:02.253" clipEnd="0:00:03" src="../audio/sonnet.mp4"/>
+    </par>
+  </body>
+</smil>

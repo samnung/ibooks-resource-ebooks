@@ -1,0 +1,19 @@
+.page {
+  background-color: #dca43f;
+}
+
+p {
+  color: #fff;
+  top: 150px;
+  left: 125px;
+}
+
+a { 
+  color: #29628B;
+  text-decoration: none;
+}
+
+aside { 
+	position: absolute;
+	top: -100px;
+}
